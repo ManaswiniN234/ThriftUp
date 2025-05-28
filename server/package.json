@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "backend logic for thriftup",
+  "keywords": [
+    "Thrift Up",
+    "thriftup",
+    "thrift",
+    "upcycle",
+    "sustainable fashion",
+    "clothing",
+    "fashion store"
+  ],
+  "homepage": "https://github.com/ManaswiniN234/ThriftUp#readme",
+  "bugs": {
+    "url": "https://github.com/ManaswiniN234/ThriftUp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManaswiniN234/ThriftUp.git"
+  },
+  "license": "ISC",
+  "author": "Manaswini and Sajit",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1",
+    "nodemon": "^3.1.10"
+  }
+}
